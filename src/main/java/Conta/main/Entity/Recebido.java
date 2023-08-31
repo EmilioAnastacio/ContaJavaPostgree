@@ -12,7 +12,7 @@ public class Recebido {
     private double desvioPadrao;
 
     @Getter@Setter
-    private int qntRecebido;
+    private double qntRecebido;
 
     @Getter@Setter
     private double mediana;
@@ -21,7 +21,7 @@ public class Recebido {
 
     }
 
-    public Recebido(double media, double desvioPadrao, int qntRecebido, double mediana) {
+    public Recebido(double media, double desvioPadrao, double qntRecebido, double mediana) {
         this.media = media;
         this.desvioPadrao = desvioPadrao;
         this.qntRecebido = qntRecebido;
